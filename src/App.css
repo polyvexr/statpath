@@ -1,0 +1,12 @@
+/* App-level layout helpers */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+  aside {
+    display: none !important;
+  }
+}
